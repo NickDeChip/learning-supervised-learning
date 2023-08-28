@@ -4,7 +4,7 @@ import (
 	"math/rand"
 )
 
-const learningRate = 0.2
+const learningRate = 0.02
 
 type Perceptron struct {
 	Weights []float32

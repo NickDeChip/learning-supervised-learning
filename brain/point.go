@@ -32,7 +32,7 @@ func (point *Point) GetPixelY() int32 {
 
 func (point *Point) Point(guess float32) {
 	rl.DrawCircle(point.GetPixelX(), point.GetPixelY(), 18, rl.Black)
-	if guess == float32(point.Value) {
+	if guess == 1 {
 		rl.DrawCircle(point.GetPixelX(), point.GetPixelY(), 14, rl.Green)
 	} else {
 		rl.DrawCircle(point.GetPixelX(), point.GetPixelY(), 14, rl.Red)
